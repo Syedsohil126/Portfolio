@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Sohail - Creative Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="home-section">
+        <div class="intro">
+            <h1>Hello!</h1>
+            <img src="C:/Users/Hp/Desktop/html/WhatsApp Image 2024-08-18 at 16.17.56_191aca52.jpg" alt="Syed Sohail" class="profile-img">
+            <p>A passionate web developer dedicated to creating exceptional digital experiences.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Hi Everyone! I’m Syed Sohail from Chandole, India, currently in my third year of pursuing a B.Tech degree in Computer Science and Engineering at Vignan's University. While coding is a significant part of my academic life, I have a rich array of hobbies and interests that keep me engaged outside the classroom. I am passionate about playing games, which offers me a blend of strategy and relaxation. Riding bikes gives me the thrill of adventure and freedom, and traveling allows me to explore new cultures and landscapes. I also find immense joy in reading books, which fuels my imagination and broadens my perspective. Music is a constant companion that helps me unwind and find inspiration, while trekking challenges me physically and connects me with nature. Each of these activities adds a unique dimension to my life, balancing my technical pursuits with personal growth and enjoyment.</p>
+        <div class="interests">
+            <div class="interest">Playing Games</div>
+            <div class="interest">Riding Bikes</div>
+            <div class="interest">Travelling</div>
+            <div class="interest">Reading Books</div>
+            <div class="interest">Listening to Music</div>
+            <div class="interest">Trekking</div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="C:/Users/Hp/Desktop/html/e-commerce.jpeg" alt="Project 1">
+            <h3>Project 1: E-commerce Website</h3>
+            <p>Developed a robust e-commerce website using React, Node.js, and MongoDB. The platform features secure user authentication, dynamic product management, and integrated payment processing. It includes a responsive UI, real-time cart updates, and an admin dashboard for efficient product and order management. Deployed on a cloud platform with CI/CD pipelines.</p>
+        </div>
+        <div class="project">
+            <img src="C:/Users/Hp/Desktop/html/portfolio.png" alt="Project 2">
+            <h3>Project 2: Portfolio Website</h3>
+            <p>I developed a personal portfolio website to effectively showcase my skills, projects, and contact information. Using HTML, CSS, and JavaScript, I crafted an engaging and visually appealing platform that highlights my professional abilities and achievements. The site features interactive elements and a clean design to enhance user experience and presentation.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-icons">
+            <a href="mailto:syedsohail630948@gmail.com" class="icon">📧 Email</a>
+            <a href="tel:+1234567890" class="icon">📞 Phone</a>
+        </div>
+        <a href="https://wa.me/916309483511" class="chat-now">Chat Now</a>
+    </section>
+</body>
+</html>
